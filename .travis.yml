@@ -4,11 +4,11 @@ compiler: g++
 sudo: required
 
 before_install:
-  - add-apt-repository ppa:beineri/opt-qt-5.12.0-bionic
-  - apt-get update
+  - sudo add-apt-repository ppa:beineri/opt-qt-5.12.0-bionic
+  - sudo apt-get update
 
 install:
-  - apt-get install qt512base 
+  - sudo apt-get install qt512base 
 
 before_script:
   - QTDIR="/opt/qt512"
