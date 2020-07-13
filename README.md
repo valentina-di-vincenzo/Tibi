@@ -88,7 +88,7 @@ If you have QtCreator then just build the project. If you don't want to use the 
 ```shell
 mkdir buildTibi
 cd buildTibi
-qmake ../Tibi__SharingOnLAN.pro
+qmake ../Tibi__LANSharing.pro
 make
 ```
 
@@ -111,7 +111,7 @@ You will find the app in the "buildTibi/Tibi" folder.
      ./PATH TO SOURCE/buildTibi/TibiSelector/TibiSelector.app/Contents/MacOS/TibiSelector $@
      ```
 
-     Where PATH TO SOURCE is the path to the Tibi__SharingOnLAN folder you downloaded. 
+     Where PATH TO SOURCE is the path to the Tibi__LANSharing folder you downloaded. 
      If you built it with QtCreator:
 
      ```shell
