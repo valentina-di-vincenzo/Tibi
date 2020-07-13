@@ -9,7 +9,7 @@ before_install:
 
 install:
   - sudo apt-get install -y qt512base 
-  - sudo apt install libgl1-mesa-dev
+  - sudo apt install -y libgl1-mesa-dev
 
 before_script:
   - QTDIR="/opt/qt512"
@@ -20,5 +20,4 @@ script:
   - mkdir buildTibi
   - cd buildTibi
   - qmake ../Tibi__SharingOnLAN.pro
-  - echo "Ready to make"
   - make
