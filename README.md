@@ -4,9 +4,9 @@
 ![Platform](https://img.shields.io/badge/platform-macos%20%7C%20linux%20%7C%20windows-lightgrey)
 ![Framework](https://img.shields.io/badge/framework-Qt%205-9cf)
 
-# Tibi: sharing on LAN
+# Tibi: LAN sharing software
 
-Tibi is a cross-platform desktop application designed to allow files and directories sharing on Local Area Networks. The users' presence is advertised through a network protocol that expoilts UDP multicast messages designed specifically for Tibi. 
+Tibi is a cross-platform desktop application designed to allow files and directories sharing over a Local Area Networks. The users' presence is advertised through a network protocol that expoilts UDP multicast messages designed specifically for Tibi. 
 
 1. [Features](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#gettin-started)
     - [Status](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#status)
@@ -143,7 +143,7 @@ You will find the app in the "buildTibi/Tibi" folder.
 
   4. Check all the four checkbox in the "Action" menu
      Context label: **Share with Tibi**
-     Tooltip: **Share on LAN**
+     Tooltip: **Share over LAN**
      Icon: **/PATH TO SOURCE/resources/images/tibi-logo-tray.png**
 
   5. In the "Command" menu set:
