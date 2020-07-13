@@ -2,22 +2,18 @@
 
 Tibi is a cross-platform desktop application designed to allow files and directories sharing on Local Area Networks. The users' presence is advertised through a network protocol that expoilts UDP multicast messages designed specifically for Tibi. 
 
-1. [Requirements](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#requirements)
-2. [Getting started](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#gettin-started)
-3. [Installation](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#installation)
-4. [What does "Tibi" mean?](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#what-does-tibi-mean)
-5. [License](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#license)
+1. [Features](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#gettin-started)
+    - [Status](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#status)
+    - [Preferences](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#preferences)
+    - [Sending files and directories](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#sending-files-and-directories)
+    - [Receiving files and directories](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#receiving-files-and-directories)
+2. [Installation](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#installation)
+3. [What does "Tibi" mean?](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#what-does-tibi-mean)
+4. [License](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#license)
 
-## Requirements
 
-- **Git**
-- **C++11** 
 
-- **Qt**
-  - Mac :arrow_right: [Install Qt](https://www.qt.io/download-qt-installer?hsCtaTracking=99d9dd4f-5681-48d2-b096-470725510d34|074ddad0-fdef-4e53-8aa8-5e8a876d6ab4)
-  - Linux :arrow_right: in the terminal `sudo apt-get install qt5-default`
-
-## Getting started
+## Features
 
 ### Status
 
@@ -62,11 +58,18 @@ Files and directories are saved in the default path (you can change it in Prefer
 All the downloads' status are visibile in the Transfers window, where you can also easily open the finished ones or abort an ongoing one.
 When two downloads have the same name Tibi asks you if you want to overwrite the old one or to keep both of them (in this case at the new download is added a number). 
 
-### Security
-
-Given the absence of a central authority, Tibiers authentication is not possibile. If you are sending sensible data (and I wouldn't recommend it) make sure to text your friend/collegue before doing it. 
-
 ## Installation
+
+#### Requirements
+
+- **Git**
+- **C++11** 
+
+- **Qt**
+  - Mac :arrow_right: [Install Qt](https://www.qt.io/download-qt-installer?hsCtaTracking=99d9dd4f-5681-48d2-b096-470725510d34|074ddad0-fdef-4e53-8aa8-5e8a876d6ab4)
+  - Linux :arrow_right: in the terminal `sudo apt-get install qt5-default`
+  
+#### Instructions
 
 Select where you want to save the repository and then download it or clone it:
 
