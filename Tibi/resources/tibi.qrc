@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/tibi-logo-tray-offline.png</file>
+        <file>images/tibi-logo-tray-online.png</file>
+        <file>images/tibi-logo-tray.png</file>
+        <file>images/tibi-logo.png</file>
+        <file>icons/tibi-icon.png</file>
+    </qresource>
+    <qresource prefix="/style">
+        <file>style/style.qss</file>
+    </qresource>
+    <qresource prefix="/certificates">
+        <file>certificates/tibi.key</file>
+        <file>certificates/tibi.pem</file>
+    </qresource>
+</RCC>

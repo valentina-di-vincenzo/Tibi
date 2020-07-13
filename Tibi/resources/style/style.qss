@@ -1,0 +1,172 @@
+QWidget {
+    background-color: #212121;
+    color: white;
+    font-family: Montserrat;
+
+}
+
+QWidget#uploads {
+    background-color: #131313;
+    border-radius: 15px;
+}
+
+QWidget#preferences {
+    font-size: 15px;
+}
+
+
+
+QLineEdit {
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 5px;
+    border-bottom: 1px solid #dddddd;
+    color: #a4a4a4;
+    background-color: #e3e2e2;
+    text-transform: uppercase;
+}
+
+QLineEdit#username-lineedit {
+    background-color: #212121;
+    color: white;
+    font-size: 15px;
+}
+
+QLineEdit::focus {
+    border: 0px;
+    padding: 3px;
+    border-bottom: 3px solid #FF2F92;
+    color: #212121;
+    font-weight: bold;
+
+}
+
+QLineEdit#username-lineedit::focus {
+    background-color: #212121;
+    color: white;
+}
+
+QRadioButton {
+
+    font-size: 15px;
+    background: transparent;
+}
+
+QRadioButton::indicator {
+    width: 15px;
+    height: 15px;
+}
+
+
+QLabel {
+    background: transparent;
+}
+
+QLabel#title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+QLabel#title-conf {
+    font-weight: bold;
+    color: #00FDFF;
+}
+
+QLabel#sendings {
+    margin: 0px;
+    font-size: 40px;
+    font-weight: bold;
+
+
+}
+
+QLabel#firstRow {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QLabel#preferences-label {
+    font-size: 15px;
+    font-weight: semi-bold;
+}
+
+QProgressBar {        
+    border-radius: 6px;
+    background-color:#C0C0C0;
+    max-height: 13px;
+}
+
+QProgressBar::chunk {
+    border-radius: 6px;
+    background-color: qlineargradient(x1: 0, y1: .5, x2: 1, y2: .5, stop: 0 #00FDFF, stop: 0.9 #FF2F92);
+
+}
+
+QProgressBar#iddle::chunk {
+    border-radius: 6px;
+    background-color: #212121;
+
+}
+
+QPushButton {
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 10px;
+    background-color: #C0C0C0;
+    color: #212121;
+    font-weight: bold;
+
+}
+
+QPushButton::hover {
+    color: qlineargradient(x1: 0, y1: .5, x2: 1, y2: .5, stop: 0 #00FDFF, stop: 0.9 #FF2F92);
+    background-color: #212121;
+    border: 1px solid #C0C0C0;
+}
+
+QPushButton#send-button,
+QPushButton#cancel-button,
+QPushButton#select-button
+{
+
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+
+QPushButton#cancel-button {
+
+    border: 1px solid #C0C0C0;
+    background-color: #212121;
+    color: #C0C0C0;
+}
+
+QPushButton#cancel-button::hover {
+    color: qlineargradient(x1: 0, y1: .5, x2: 1, y2: .5, stop: 0 #00FDFF, stop: 0.9 #FF2F92);
+    border: 3px solid #C0C0C0;
+}
+
+
+QPushButton#select-button {
+    max-height: 30px;
+}
+
+
+
+QPushButton#newGame {            
+    border-width: 1px;            
+    background: transparent;            
+    color: #350c9d;            
+}       
+
+QPushButton#newGame::hover {        
+    background: #350c9d;
+    color: white;
+
+}
+
+
+                
+
