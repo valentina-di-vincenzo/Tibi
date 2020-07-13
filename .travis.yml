@@ -19,5 +19,5 @@ before_script:
 script:
   - mkdir buildTibi
   - cd buildTibi
-  - qmake ../Tibi__SharingOnLAN.pro
+  - qmake ../Tibi__LANSharing.pro
   - make
