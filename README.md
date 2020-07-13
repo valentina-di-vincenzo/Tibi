@@ -2,11 +2,11 @@
 
 Tibi is a cross-platform desktop application designed to allow files and directories sharing on Local Area Networks. The users' presence is advertised through a network protocol that expoilts UDP multicast messages designed specifically for Tibi. 
 
-1. [Requirements]
-2. [Getting started]
-3. [Installation]
-4. [What does "Tibi" means?]
-5. [License]
+1. [Requirements](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#requirements)
+2. [Getting started](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#gettin-started)
+3. [Installation](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#installation)
+4. [What does "Tibi" mean?](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#what-does-tibi-mean)
+5. [License](https://github.com/valentina-di-vincenzo/Tibi/blob/master/README.md#license)
 
 ## Requirements
 
