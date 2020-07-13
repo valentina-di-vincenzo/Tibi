@@ -1,4 +1,8 @@
-[![Build Status](https://travis-ci.org/valentina-di-vincenzo/Tibi.svg?branch=master)](https://travis-ci.org/valentina-di-vincenzo/Tibi)
+<img src="https://github.com/valentina-di-vincenzo/Tibi/blob/master/Demo/logo.png" height="170" />
+
+![Build Status](https://travis-ci.org/valentina-di-vincenzo/Tibi.svg?branch=master)
+![Platform](https://img.shields.io/badge/platform-macos%20%7C%20linux%20%7C%20windows-lightgrey)
+![Framework](https://img.shields.io/badge/framework-Qt%205-9cf)
 
 # Tibi: sharing on LAN
 
