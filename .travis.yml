@@ -14,7 +14,10 @@ before_script:
   - QTDIR="/opt/qt512"
   - PATH="$QTDIR/bin:$PATH"
   - source /opt/qt512/bin/qt512-env.sh
-  - qmake Tibi__SharingOnLAN.pro
 
 script:
+  - mkdir buildTibi
+  - cd buildTibi
+  - qmake ../Tibi__SharingOnLAN.pro
+  - echo "Ready to make"
   - make
