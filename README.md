@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/valentina-di-vincenzo/Tibi.svg?branch=master)](https://travis-ci.org/valentina-di-vincenzo/Tibi)
+
 # Tibi: sharing on LAN
 
 Tibi is a cross-platform desktop application designed to allow files and directories sharing on Local Area Networks. The users' presence is advertised through a network protocol that expoilts UDP multicast messages designed specifically for Tibi. 
