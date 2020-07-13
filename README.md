@@ -102,9 +102,9 @@ You will find the app in the "buildTibi/Tibi" folder.
 
   2. Choose "Quick Action"
 
-  3. Add "Run Shell Script" with the following settings:
-     Shell: **/bin/zsh**
-     Pass input: **as argument**
+  3. Add "Run Shell Script" with the following settings:  </br>
+     Shell: **/bin/zsh** </br>
+     Pass input: **as argument** </br>
      If you built it without QtCreator:
 
      ```shell
@@ -118,10 +118,10 @@ You will find the app in the "buildTibi/Tibi" folder.
      ./PATH TO BUILD DIR/TibiSelector/TibiSelector.app/Contents/MacOS/TibiSelector $@
      ```
 
-  4. The action has the following settings:
-     Workflow receives current: **files or folder**
-     In: **any application**
-     Image: **Send**
+  4. The action has the following settings:</br>
+     Workflow receives current: **files or folder**</br>
+     In: **any application**</br>
+     Image: **Send**</br>
 
   5. Save it and name it "Share with Tibi"
 
@@ -141,19 +141,19 @@ You will find the app in the "buildTibi/Tibi" folder.
 
   3. File -> New action
 
-  4. Check all the four checkbox in the "Action" menu
-     Context label: **Share with Tibi**
-     Tooltip: **Share over LAN**
-     Icon: **/PATH TO SOURCE/resources/images/tibi-logo-tray.png**
+  4. Check all the four checkbox in the "Action" menu</br>
+     Context label: **Share with Tibi**</br>
+     Tooltip: **Share over LAN**</br>
+     Icon: **/PATH TO SOURCE/resources/images/tibi-logo-tray.png**</br>
 
-  5. In the "Command" menu set:
-     Path: **/PATH TO BUILD/TibiSelector/TibiSelector**
-     Parametes: **%F**
+  5. In the "Command" menu set:</br>
+     Path: **/PATH TO BUILD/TibiSelector/TibiSelector**</br>
+     Parametes: **%F**</br>
      Working directory: **%d**
 
 ## What does "Tibi" mean?
 
-"Tibi" means "to you" in latin. The inspiration behind this name is a riddle used by Cicerone to greet people: "Mitto tibi navem prora puppique carentem" that is translated as "I send you a ship without stern and bow". Have you solved the riddle? 
+"Tibi" means "to you" in latin. The inspiration behind this name is a riddle used by Cicerone to greet people: "Mitto tibi navem prora puppique carentem" that is translated as "I send you a ship without stern and bow". Have you solved the riddle? </br>
 "Navem" without the first and last letter is just "ave" that stands for "hello" in latin!
 
 ## License
